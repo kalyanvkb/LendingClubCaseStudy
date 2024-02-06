@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Case Study
+> Objective is to analyse the data set and identify the risky groups for Lending.
 
 
 ## Table of Contents
@@ -11,38 +11,40 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- 
+- Intent of the project is to identify the driving factors behind loan default
+- Identifying the trends of loan defaults will help the financial instituate to take a better judgement of loans and credits to the customers
+- Dataset given was the history of the customers with previous loan data.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+* Customers with verification status Not Verified tend to default more
+* Customers who took the loan with purpose as Debt consolidation tend to default more
+* Customers whose grade is B tend to default more
+* Customers whose sub grade is B5, C1, B4, B3, C2, D2 tend to default more
+* Customers whose employment length is more than 10 years tend to default more
+* Customers whose current credit line is in between 2-20 tend to default more
+* Customers whose interest rate is in between 14%-18% tend to default more
+* Customers whose annual income is in between 30k-60k tend to default more
+* Customers whose home ownership is RENT tend to default more
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python
+- Pandas
+- numpy
+- matplotlib
+- MinMaxScaler
+- DecisionTreeClassifier
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@kalyanvkb] - feel free to contact me!
 
 
 <!-- Optional -->
