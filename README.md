@@ -11,7 +11,7 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- 
+
 - Intent of the project is to identify the driving factors behind loan default
 - Identifying the trends of loan defaults will help the financial instituate to take a better judgement of loans and credits to the customers
 - Dataset given was the history of the customers with previous loan data.
